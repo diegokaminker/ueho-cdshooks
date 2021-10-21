@@ -1,0 +1,37 @@
+{
+  "name": "ueho-cdshook",
+  "version": "1.0.0",
+  "description": "UEHO - Ejemplo de CDS Hooks",
+  "main": "cds-hook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon cds-hook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegokaminker/ueho-cdshooks.git"
+  },
+  "keywords": [
+    "cds-hooks",
+    "express",
+    "javascript"
+  ],
+  "author": "UW BHI / Adaptado por Diego Kaminker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diegokaminker/ueho-cdshooks/issues"
+  },
+  "homepage": "https://github.com/diegokaminker/ueho-cdshooks#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-async-handler": "^1.0.3",
+    "load-json-file": "^4.0.0",
+    "moment": "^2.20.1",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
